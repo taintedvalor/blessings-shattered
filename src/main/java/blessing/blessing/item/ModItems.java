@@ -13,7 +13,7 @@ import blessing.blessing.Blessingsshattered;
 public class ModItems {
 
 
-    //
+    // blessing shard Item
     public static final Item blessing_shard = registerItem("blessing_shard", new Item(new FabricItemSettings().maxCount(16)));
 
 
