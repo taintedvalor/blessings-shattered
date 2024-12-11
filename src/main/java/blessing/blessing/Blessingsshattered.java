@@ -1,5 +1,6 @@
 package blessing.blessing;
 
+import blessing.blessing.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -16,6 +17,7 @@ public class Blessingsshattered implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModLootTableModifiers.modifyLootTables();
 		ModItems.registerModItems();
 		LOGGER.info("initializing Blessings Shattered");
 	}
