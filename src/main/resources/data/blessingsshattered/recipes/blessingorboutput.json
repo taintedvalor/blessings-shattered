@@ -21,6 +21,9 @@
       ],
       "display": {
         "Name": "{\"text\":\"Orb of Blessings\",\"color\":\"green\",\"italic\":false}"
+      },
+      "EntityTag": {
+        "variant": "orb_of_blessings"
       }
     }
   }
